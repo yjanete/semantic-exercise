@@ -28,9 +28,9 @@ print(word6.similarity(word4))
 ## When running the example file with the simpler language model ‘en_core_web_sm’, the similarity found between elements is much higher.
 # This is probably because this model's similarity method is based on the tagger, parser and NER, which may not give useful similarity judgements.
 # 'en_core_web_sm' has no word vectors loaded and only yse context-sensitive tensors.
-# The en_core_web_md is a larger model and this means it will usually take a little longer to load the model. 
+# The en_core_web_md is a larger model and this means it will usually take longer to load. 
 ## On the other hand, we usually expect it to find more entities.
-# Most differences are obviously statistical. In general, we do expect larger models to be "better" and more accurate overall. 
+# Most differences are obviously statistical. In general, we do expect larger models to performer better and more accurate overall. 
 
 
 
